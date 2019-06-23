@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Utility Classes */
+
+.left { text-align: left ;}
+.right { text-align: right; }
+.center { text-align: center; }
+
+.padded { padding: 5%; }
+.no-padding { padding: 0; }
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(200,200,205);
+}
+
+/* Universal styles */
+
+
+img {
+  max-height: 100%;
+}
+
+.reviews {
+    border: 1px solid grey;
+}
+
+.profile {
+  border-radius: 100%;
+  max-width: 50%;
+}
+
+body {
+  font-family: 'Montserrat';
+  color: rgb(60,60,65);
+  line-height: 1.5rem;
+  /* font-size: 15px;
+  letter-spacing: 0.1em;
+  line-height: 2.1em; */
+}
+
+section, div {
+  padding: 2rem;
+  border: 1px solid rgb(220,220,220)
+}
+
+.button {
+
+}
+
+header{
+  background-image: url("/images/placeholder.jpg")
+}
+
+.quote {
+padding:normal;
+text-align: center;
+}
+
+.quote p {
+  font-family: 'Petit Formal Script', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: 0.3em;
+  line-height: 1.3em;
+}
+
+.socials {
+  text-align: center;
+}
