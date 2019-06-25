@@ -7,14 +7,16 @@
   <title> Karla Lenfeld Health Coaching </title>
 
   <!--Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Petit+Formal+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600|Montserrat:300,400,400i,500,600|Petit+Formal+Script&display=swap" rel="stylesheet">
 
   <!-- social icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
 
 <!-- this is gridlex for our grid layouts -->
-  <link href="CSS/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
+
+  <link href="/CSS/style.css" rel="stylesheet">
 
 </head>
 
@@ -23,50 +25,57 @@
 <body>
 
 <!--this is my main header-->
-<header class="grid-center-middle">
-  <div class="col">
-    <h3> Hi, I'm Karla </h3>
-    <h2> Your coach towards radiant vitality and health inside out </h2>
-    <div class="centered" >
-      <a href="#" class="button" href="/contact"> Schedule a free consultation </a>
-    </div>
-  </div>
+<header class="centered">
+  <div class="logo">
+    <a href="/"><i class="fas fa-utensils"></i> </a>
 
-  <div class="hamburger"> Menu </div>
-<div class="menu hidden">
-    <a href="/index">  Home  </a>
-    <a href="/about-me">  About me  </a>
-    <a href="/personal-consultations">  Personal consultations </a>
-    <a href="/my-eating-philosophy">  My eating philosophy </a>
-    <a href="/articles">  Articles  </a>
+  </div>
+    <div class="hamburger"> Menu </div>
+    <div class="menu hidden">
+      <a href="/index"> Home </a>
+      <a href="/about-me"> About me </a>
+      <a href="/personal-consultations"> Personal consultations </a>
+      <a href="/my-eating-philosophy"> My eating philosophy </a>
+      <a href="/articles"> Articles </a>
 
     </div>
 
 </header>
 
-<section class="grid padded">
-  <div class="col-6_sm-12">
+<section class="grid-equalHeight padded">
+  <div class="col-6_sm-12 consultation">
     <div>
-      <h3> 3x 1:1 Coaching sessions </h3>
-      <h4> € 199 <h4>
-      <p> Perfect Way to Start Your Health Journey </p>
-      <a href="#" class="button"> Select</a>
-    </div>
-    <div>
-      <p> Three 1:1 Personal Health Coaching Sessions of 90 minutes each <p>
-      <p> Individualized Approach Designed to Reach Your Needs </p>
-      <p> I Come to You! Sessions Offered Outdoors or in Your Home! </p>
-      <p> Basic Nutrition Guidance Included! </p>
+      <div class="border-bottom">
+        <h3> 3x 1:1 Coaching sessions </h3>
+        <h4> € 199 <h4>
+        <p> Perfect Way to Start Your Health Journey </p>
+        <!-- Calendly link widget begin -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+  <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/karlalenfeld/3blocksofindividualcoachingsessions'});return false;">Schedule time with me</a>
+  <!-- Calendly link widget end -->
+      </div>
+      <div>
+        <p> Three 1:1 Personal Health Coaching Sessions of 90 minutes each <p>
+        <p> Individualized Approach Designed to Reach Your Needs </p>
+        <p> I Come to You! Sessions Offered Outdoors or in Your Home! </p>
+        <p> Basic Nutrition Guidance Included! </p>
 
+      </div>
     </div>
   </div>
-
-  <div class="col-6_sm-12">
+  <div class="col-6_sm-12 consultation">
     <div>
+    <div class="border-bottom">
       <h3> 5x 1:1 Coaching sessions </h3>
       <h4> € 299 <h4>
       <p> The Best Way to See Results at the Best Price!</p>
-      <a href="#" class="button"> Select</a>
+      <!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/karlalenfeld/5-blocks-of-individual-coaching-session-a-90-mi-clone'});return false;">Schedule time with me</a>
+<!-- Calendly link widget end -->
+
     </div>
     <div>
       <p> Five 1:1 Personal Health Coaching Sessions of 90 minutes each <p>
@@ -74,13 +83,17 @@
       <p> Detailed Nutrition Guidance Included! </p>
     </div>
   </div>
+  </div>
 
-    <div class="col-6_sm-12">
+    <div class="col-6_sm-12 consultation">
       <div>
+        <div class="border-bottom">
         <h3> 10x 1:1 Coaching sessions </h3>
         <h4> € 549 <h4>
         <p> The Ultimate Health Transformational Journey!</p>
-        <a href="#" class="button"> Select</a>
+        <!-- Calendly link widget begin -->
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/karlalenfeld/10-blocks-of-individual-coaching-session-a-90-mi-clone-1'});return false;">Schedule time with me</a>
+<!-- Calendly link widget end -->
       </div>
       <div>
         <p> Ten 1:1 Personal Health Coaching Sessions of 90 minutes each <p>
@@ -91,39 +104,59 @@
 
       </div>
     </div>
+    </div>
 
-    <div class="col-6_sm-12">
+    <div class="col-6_sm-12 consultation">
       <div>
-        <h3> Online Coaching session </h3>
+        <div class="border-bottom">
+        <h3> 1x Online Coaching session </h3>
         <h4> € 49 <h4>
         <p> Anytime Anywhere from the comfort of your home!</p>
-        <a href="#" class="button"> Select </a>
-      </div>
+        <!-- Calendly link widget begin -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+  <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/karlalenfeld/online'});return false;">Schedule time with me</a>
+  <!-- Calendly link widget end -->
+      </div
       <div>
-        <p> 1x 1:1 Online Health Coaching Session via Skype <p>
-        <p> Referal materials sent via email included </p>
+        <p> One 1:1 Online Health Coaching Session via Skype <p>
+        <p> Personalized protocol for your health condition </p>
+        <p> Referral material included </p>
       </div>
+    </div>
     </div>
 
   </section>
+
+  <!-- Calendly link widget begin -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+
+  <div class="centered">
+    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/karlalenfeld/30min'});return false;" class="button">Schedule time with me</a>
+ </div>
+
+  <!-- Calendly link widget end -->
 
 
 <footer>
 
   <nav class="socials">
-            <a href="www.facebook.com">
+            <a href="https://www.facebook.com/callmekarli" target="_blank">
               <i class="fab fa-facebook square"> </i>
             </a>
-              <a href="instagram">
+              <a href="https://instagram.com/nutrilaboratorium">
               <i class="fab fa-instagram"> </i>
               </a>
-            </nav>
+  </nav>
 </footer>
 
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
 
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js">
 </script>
 
 <script src="/scripts/main.js">

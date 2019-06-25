@@ -7,14 +7,16 @@
   <title> Karla Lenfeld Health Coaching </title>
 
   <!--Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Petit+Formal+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600|Montserrat:300,400,400i,500,600|Petit+Formal+Script&display=swap" rel="stylesheet">
 
   <!-- social icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
 
 <!-- this is gridlex for our grid layouts -->
-  <link href="CSS/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
+
+  <link href="/CSS/style.css" rel="stylesheet">
 
 </head>
 
@@ -23,22 +25,18 @@
 <body>
 
 <!--this is my main header-->
-<header class="grid-center-middle">
-  <div class="col">
-    <h3> Hi, I'm Karla </h3>
-    <h2> Your coach towards radiant vitality and health inside out </h2>
-    <div class="centered" >
-      <a href="#" class="button" href="/contact"> Schedule a free consultation </a>
-    </div>
-  </div>
+<header class="centered">
+  <div class="logo">
+    <a href="/"><i class="fas fa-utensils"></i> </a>
 
-  <div class="hamburger"> Menu </div>
-<div class="menu hidden">
-    <a href="/index">  Home  </a>
-    <a href="/about-me">  About me  </a>
-    <a href="/personal-consultations">  Personal consultations </a>
-    <a href="/my-eating-philosophy">  My eating philosophy </a>
-    <a href="/articles">  Articles  </a>
+  </div>
+    <div class="hamburger"> Menu </div>
+    <div class="menu hidden">
+      <a href="/index"> Home </a>
+      <a href="/about-me"> About me </a>
+      <a href="/personal-consultations"> Personal consultations </a>
+      <a href="/my-eating-philosophy"> My eating philosophy </a>
+      <a href="/articles"> Articles </a>
 
     </div>
 
@@ -46,29 +44,36 @@
 
 <section class="padded">
 
-<h2> minimally processed, wholesome, low in sugar. </h2>
+<h2> <span id="typed"></span> </h2>
+<div id="typed-strings">
+  <span> minimally processed, </span>
+    <span> wholesome, </span>
+	<span> low in sugar. </span>
+</div>
 
-<p> Eating is one of the biggest constants in life, therefore it's important to make sure that we eat foods that help us build our health. In addition, to remain us healthy without becoming bedridden in the future, diet also contributes to keeping us nutritionally fit and it prevents illnesses. I think of food as information that talks to our genes and tell them what to do. Poor nutrition can create disease. I'm not a believer of eating everything in moderation, because then also your health ends up to be rather moderate.
-
+<p> Eating is one of the biggest constants in life, therefore it's important to make sure that we eat foods that help us build our health. In addition, to remain us healthy without becoming bedridden in the future, diet also contributes to keeping us nutritionally fit and it prevents illnesses. I think of food as information that talks to our genes and tell them what to do. Poor nutrition can create disease. I'm not a believer of eating everything in moderation, because then also your health ends up to be rather moderate. But nutrition alone is no longer adequate enough in addressing the compelling challenges we face with food. Lasting change and breakthrough happens when we work on both the nutritional and personal dimensions of life.
+</p>
 </section>
 
 
 <footer>
 
   <nav class="socials">
-            <a href="www.facebook.com">
+            <a href="https://www.facebook.com/callmekarli" target="_blank">
               <i class="fab fa-facebook square"> </i>
             </a>
-              <a href="instagram">
+              <a href="https://instagram.com/nutrilaboratorium">
               <i class="fab fa-instagram"> </i>
               </a>
-            </nav>
+  </nav>
 </footer>
 
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
 
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js">
 </script>
 
 <script src="/scripts/main.js">
